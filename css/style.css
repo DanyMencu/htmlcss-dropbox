@@ -67,6 +67,10 @@ body {
     padding-bottom: 40px;
 }
 
+.pb-60 {
+    padding-bottom: 60px;
+}
+
 .pr-50 {
     padding-right: 50px;
 }
@@ -200,6 +204,8 @@ header .half-container ul .start:hover {
     margin: 0 5%;
 }
 
+/* COLLUMN HEADER */
+
 .collumn-header {
     padding: 10px 0;
     text-align: center;
@@ -212,4 +218,30 @@ header .half-container ul .start:hover {
 
 .collumn-header a i {
     padding-right: 7px;
+}
+
+/* COLLUMN CONTENT */
+
+.collumn-content {
+    padding: 20px;
+}
+
+.collumn-content h3 {
+    font-size: 32px;
+}
+
+.sub-type li,
+.sub-description li {
+    list-style: none;
+}
+
+
+.sub-price {
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.collumn-content .fa-ul {
+    margin-left: 23px;
 }
