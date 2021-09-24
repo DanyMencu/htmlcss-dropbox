@@ -9,6 +9,15 @@
 
 /* UTILITIES */
 
+.half-container {
+    width: 50%;
+}
+
+.container-big {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .box {
     width: 100%;
     height: 50px;
@@ -33,16 +42,25 @@
     text-align: right;
 }
 
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
 .pr-50 {
     padding-right: 50px;
 }
 
-.btn-small {
+.btn {
     padding: 10px 20px;
+    text-decoration: none;
 }
 
 .col-blue {
-    background-color: blue;
+    background-color: #0061ff;
     color: white;
 }
 
@@ -52,9 +70,6 @@ header {
     background-color: white;
 }
 
-.half-container {
-    width: 50%;
-}
 
 header .half-container ul li {
     display: inline;
@@ -81,15 +96,59 @@ header .half-container ul li a {
     font-weight: 600;
 }
 
-header .half-container ul .btn-small > a {
+header .half-container ul .btn > a {
     color: white;
 }
 
 header .half-container ul li:hover {
-    border-bottom: 1px solid #000;
+    border-bottom: 2px solid #000;
 }
 
 header .half-container ul .start:hover {
-    background-color: rgb(0, 110, 255);
+    background-color: rgb(49, 138, 253);
     border-bottom: 0;
 }
+
+/* HERO */
+
+.hero {
+    background-color: #b4d0e7;
+}
+
+.hero-title {
+    font-size: 45px;
+    padding: 50px 0;
+}
+
+.hero-content {
+    width: 40%;
+    padding-right: 205px;
+    font-weight: 600;
+}
+
+.hero-img {
+    width: 60%;
+    transform: translateY(10%);
+}
+
+.hero-img img {
+    max-width: 100%;
+}
+
+.hero-content a {
+    display: inline-block;
+}
+
+.hero-clause {
+    padding: 10px 0 20px;
+}
+
+.next {
+    margin-top: 15px;
+    font-size: 40px;
+}
+
+.next a {
+    color: black;
+}
+
