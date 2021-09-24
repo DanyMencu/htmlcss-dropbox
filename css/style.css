@@ -7,6 +7,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body {
+    font-weight: 600;
+}
+
 /* UTILITIES */
 
 .half-container {
@@ -18,9 +22,14 @@
     margin: 0 auto;
 }
 
+.container {
+    width: 65%;
+    margin: 0 auto;
+}
+
 .box {
     width: 100%;
-    height: 50px;
+    height: 500px;
     background-color: rgba(0, 255, 0, 0.2);
 }
 
@@ -46,12 +55,24 @@
     padding-top: 50px;
 }
 
+.pt-15 {
+    padding-top: 15vh;
+}
+
 .pb-20 {
     padding-bottom: 20px;
 }
 
+.pb-40 {
+    padding-bottom: 40px;
+}
+
 .pr-50 {
     padding-right: 50px;
+}
+
+.pr-20 {
+    padding-right: 20px;
 }
 
 .btn {
@@ -93,7 +114,6 @@ header .half-container ul li a {
     line-height: 40px;
     text-decoration: none;
     color: black;
-    font-weight: 600;
 }
 
 header .half-container ul .btn > a {
@@ -123,7 +143,6 @@ header .half-container ul .start:hover {
 .hero-content {
     width: 40%;
     padding: 85px 205px 0 0;
-    font-weight: 600;
 }
 
 .hero-img {
@@ -153,5 +172,18 @@ header .half-container ul .start:hover {
 
 .next a {
     color: black;
+}
+
+/* MAIN */
+
+/* SUB SECTION */
+.sub-header h2 {
+    font-size: 45px;
+    font-weight: 800;
+    padding-bottom: 6vh;
+}
+
+.sub-header label {
+
 }
 
