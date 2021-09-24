@@ -245,3 +245,7 @@ header .half-container ul .start:hover {
 .collumn-content .fa-ul {
     margin-left: 23px;
 }
+
+.fa-ul li {
+    padding-bottom: 20px;
+}
