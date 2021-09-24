@@ -187,3 +187,29 @@ header .half-container ul .start:hover {
 
 }
 
+.sub-collumn {
+    width: 30%;
+    border: 1px solid #000;
+}
+
+.sub-collumn a {
+    text-decoration: none;
+}
+
+.middle {
+    margin: 0 5%;
+}
+
+.collumn-header {
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.collumn-header a {
+    color: black;
+}
+
+.collumn-header a i {
+    padding-right: 7px;
+}
