@@ -1,7 +1,95 @@
 /* GENERAL */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+}
+
+/* UTILITIES */
+
+.box {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 255, 0, 0.2);
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-l {
+    float: left;
+}
+
+.float-r {
+    float: right;
+}
+
+.text-r {
+    text-align: right;
+}
+
+.pr-50 {
+    padding-right: 50px;
+}
+
+.btn-small {
+    padding: 10px 20px;
+}
+
+.col-blue {
+    background-color: blue;
+    color: white;
+}
+
+/* HEADER */
+header {
+    padding: 0 15px;
+    background-color: white;
+}
+
+.half-container {
+    width: 50%;
+}
+
+header .half-container ul li {
+    display: inline;
+    list-style: none;
+    margin-right: 50px;
+    line-height: 60px;
+    padding-bottom: 18px;
+}
+
+header .half-container ul .start {
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin-right: 0;
+}
+
+header .half-container ul li img {
+    vertical-align: middle;
+}
+
+header .half-container ul li a {
+    line-height: 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+header .half-container ul .btn-small > a {
+    color: white;
+}
+
+header .half-container ul li:hover {
+    border-bottom: 1px solid #000;
+}
+
+header .half-container ul .start:hover {
+    background-color: rgb(0, 110, 255);
+    border-bottom: 0;
 }
