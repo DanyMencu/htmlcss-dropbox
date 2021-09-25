@@ -51,12 +51,20 @@ body {
     text-align: right;
 }
 
+.pt-10 {
+    padding-top: 10vh;
+}
+
 .pt-50 {
     padding-top: 50px;
 }
 
 .pt-15 {
     padding-top: 15vh;
+}
+
+.pb-5 {
+    padding-bottom: 5vh;
 }
 
 .py-20 {
@@ -80,12 +88,16 @@ body {
     padding-bottom: 100px;
 }
 
-.pr-50 {
-    padding-right: 50px;
-}
-
 .pr-20 {
     padding-right: 20px;
+}
+
+.pr-32 {
+    padding-right: 32vw
+}
+
+.pr-50 {
+    padding-right: 50px;
 }
 
 .btn {
@@ -335,6 +347,11 @@ header .half-container ul .start:hover {
     padding: 4vh 8vh 4vh 0;
 }
 
+.operation h2:first-child {
+    font-size: 44px;
+    padding-top: 10vh;
+}
+
 .op-square img {
     max-width: 100%;
 }
@@ -344,7 +361,23 @@ header .half-container ul .start:hover {
     padding-bottom: 3vh;
 }
 
-.operation h2:first-child {
-    font-size: 44px;
-    padding-top: 10vh;
+.op-square a {
+    color: #000;
+}
+
+/* TEAMS AREA */
+
+.team-header h2 {
+    font-size: 41px;
+}
+
+.team-header a {
+    color: #0061ff;
+}
+
+/* TEAM CONTENT */
+
+.team-content {
+    width: calc(100% / 3);
+    border: 1px solid #000;
 }
