@@ -59,6 +59,11 @@ body {
     padding-top: 15vh;
 }
 
+.py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .pb-20 {
     padding-bottom: 20px;
 }
@@ -82,6 +87,7 @@ body {
 .btn {
     padding: 10px 20px;
     text-decoration: none;
+    text-align: center;
 }
 
 .col-blue {
@@ -193,11 +199,8 @@ header .half-container ul .start:hover {
 
 .sub-collumn {
     width: 30%;
+    min-height: 115vh;
     border: 1px solid #000;
-}
-
-.sub-collumn a {
-    text-decoration: none;
 }
 
 .middle {
@@ -214,6 +217,7 @@ header .half-container ul .start:hover {
 
 .collumn-header a {
     color: black;
+    text-decoration: none;
 }
 
 .collumn-header a i {
@@ -223,7 +227,7 @@ header .half-container ul .start:hover {
 /* COLLUMN CONTENT */
 
 .collumn-content {
-    padding: 20px;
+    padding: 20px 30px;
 }
 
 .collumn-content h3 {
@@ -248,4 +252,26 @@ header .half-container ul .start:hover {
 
 .fa-ul li {
     padding-bottom: 20px;
+}
+
+.free-trial a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.buy-now a {
+    color: #0061ff;
+}
+
+.collumn-content hr {
+    margin: 2% 80% 12% 0;
+}
+
+.highlights-list .fa-ul li h3 {
+    margin-left: -25px;
+    font-size: 19px;
+}
+
+.highlights-list .fa-ul .fa-li {
+    color: #0061ff;
 }
