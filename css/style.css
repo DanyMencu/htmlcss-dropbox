@@ -198,9 +198,13 @@ header .half-container ul .start:hover {
 }
 
 .sub-collumn {
-    width: 30%;
     min-height: 115vh;
-    border: 1px solid #000;
+    width: 30%;
+}
+
+.sub-collumn,
+.enterprise-sub {
+    border: 1px solid rgb(148, 148, 148);
 }
 
 .middle {
@@ -209,33 +213,39 @@ header .half-container ul .start:hover {
 
 /* COLLUMN HEADER */
 
-.collumn-header {
+.collumn-header,
+.enterprise-header {
     padding: 10px 0;
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(148, 148, 148);
 }
 
-.collumn-header a {
-    color: black;
+.collumn-header a,
+.enterprise-header a {
+    color: black;);
     text-decoration: none;
 }
 
-.collumn-header a i {
+.collumn-header a i,
+.enterprise-header a i {
     padding-right: 7px;
 }
 
 /* COLLUMN CONTENT */
 
-.collumn-content {
+.collumn-content,
+.enterprise-content {
     padding: 20px 30px;
 }
 
-.collumn-content h3 {
+.collumn-content h3,
+.enterprise-content h3 {
     font-size: 32px;
 }
 
 .sub-type li,
-.sub-description li {
+.sub-description li,
+.enterprise-content li {
     list-style: none;
 }
 
@@ -267,6 +277,8 @@ header .half-container ul .start:hover {
     margin: 2% 80% 12% 0;
 }
 
+/* HIGHLIGHTS SECTION */
+
 .highlights-list .fa-ul li h3 {
     margin-left: -25px;
     font-size: 19px;
@@ -274,4 +286,15 @@ header .half-container ul .start:hover {
 
 .highlights-list .fa-ul .fa-li {
     color: #0061ff;
+}
+
+/* ENTERPRISE SUB */
+
+.enterprise-content {
+    width: 70%;
+}
+
+.enterprise-btn {
+    width: 30%;
+    line-height: 10vh;
 }
