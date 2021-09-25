@@ -202,10 +202,6 @@ header .half-container ul .start:hover {
     padding-bottom: 6vh;
 }
 
-.sub-header label {
-
-}
-
 .sub-collumn {
     min-height: 115vh;
     width: 30%;
@@ -231,7 +227,7 @@ header .half-container ul .start:hover {
 
 .collumn-header a,
 .enterprise-header a {
-    color: black;);
+    color: black;
     text-decoration: none;
 }
 
@@ -330,4 +326,25 @@ header .half-container ul .start:hover {
 
 .partner-content p {
     padding: 25px 0 40px;
+}
+
+/* OPERATION SECTION */
+
+.op-square {
+    width: calc(100% / 3);
+    padding: 4vh 8vh 4vh 0;
+}
+
+.op-square img {
+    max-width: 100%;
+}
+
+.op-square h3 {
+    font-size: 24px;
+    padding-bottom: 3vh;
+}
+
+.operation h2:first-child {
+    font-size: 44px;
+    padding-top: 10vh;
 }
