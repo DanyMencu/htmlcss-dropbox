@@ -51,6 +51,10 @@ body {
     text-align: right;
 }
 
+.py-6 {
+    padding: 6vh 0;
+}
+
 .pt-10 {
     padding-top: 10vh;
 }
@@ -379,5 +383,65 @@ header .half-container ul .start:hover {
 
 .team-content {
     width: calc(100% / 3);
-    border: 1px solid #000;
+    height: 60vh;
+}
+
+.partner-box {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    padding-top: 22%;
+}
+
+.partner-box img {
+    max-width: 60%;
+    transform: translateY(-50%);
+    filter: invert(1);
+}
+
+.central-collumn {
+    padding: 3%;
+}
+
+.central-collumn img {
+    width: 30%;
+}
+
+.central-collumn hr {
+    margin-right: 90%;
+    border: 1px solid rgb(189, 189, 189);
+}
+
+/* BACKGROUND COLOR SECTION */
+
+.bgc-green {
+    background-color: #a2d39b;
+}
+
+.bgc-bordeaux {
+    background-color: #61082b;
+}
+
+.bgc-lightblue {
+    background-color: #0093ce;
+}
+
+.bgc-red {
+    background-color: #ff1c1c;
+}
+
+.bgc-azure {
+    background-color: #b4d0e7;
+}
+
+.bgc-blue {
+    background-color: #0d2481;
+}
+
+.bgc-yellow {
+    background-color: #ffd830;
+}
+
+.bgc-gray {
+    background-color: #f5f5f5;
 }
