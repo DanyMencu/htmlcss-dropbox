@@ -31,6 +31,13 @@ body {
     width: 50%;
 }
 
+.collumn-90 {
+    width: 90%;
+}
+.collumn-10 {
+    width: 10%;
+}
+
 .box {
     width: 100%;
     height: 500px;
@@ -84,6 +91,11 @@ body {
     padding-bottom: 20px;
 }
 
+.py-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .pb-20 {
     padding-bottom: 20px;
 }
@@ -131,6 +143,10 @@ body {
 .col-white {
     background-color: #fff;
     color: black;
+}
+
+.bb-1 {
+    border-bottom: 1px solid rgb(158, 158, 158);
 }
 
 /* HEADER */
@@ -470,4 +486,12 @@ header .half-container ul .start:hover {
     padding: 10px 50px;
 }
 
-/* FAQ */
+/* FAQS */
+
+.faqs {
+    padding: 15vh 0;
+}
+
+.faq-title h2 {
+    font-size: 38px;
+}
