@@ -7,6 +7,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-weight: 600;
 }
@@ -157,10 +161,12 @@ body {
 
 /* HEADER */
 header {
+    width: 100%;
     padding: 0 15px;
     background-color: white;
+    position: fixed;
+    z-index: 1;
 }
-
 
 header .half-container ul li {
     display: inline;
@@ -235,6 +241,10 @@ header .half-container ul .start:hover {
     display: inline-block;
 }
 
+.hero-content .btn:hover {
+    background-color: rgb(49, 138, 253);
+}
+
 .hero-clause {
     padding: 10px 0 20px;
 }
@@ -246,6 +256,22 @@ header .half-container ul .start:hover {
 
 .next a {
     color: black;
+}
+
+.bounce {
+    animation: bounce 1.5s linear infinite;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 /* MAIN */
@@ -337,6 +363,11 @@ header .half-container ul .start:hover {
     margin: 2% 80% 12% 0;
 }
 
+.collumn-content .free-trial:hover,
+.enterprise-sub .enterprise-btn a:hover {
+    background-color: rgb(49, 138, 253);
+}
+
 /* HIGHLIGHTS SECTION */
 
 .highlights-list .fa-ul li h3 {
@@ -381,6 +412,10 @@ header .half-container ul .start:hover {
 
 .partner-content p {
     padding: 25px 0 40px;
+}
+
+.partner-content a:hover {
+    background-color: rgba(236, 236, 236, 0.486);
 }
 
 /* OPERATION SECTION */
@@ -501,6 +536,10 @@ header .half-container ul .start:hover {
     padding: 10px 50px;
 }
 
+.new-partner a:hover {
+    background-color: rgba(255, 255, 255, 0.781);
+}
+
 /* FAQS */
 
 .faqs {
@@ -539,4 +578,8 @@ header .half-container ul .start:hover {
     color: #888888;
     vertical-align: middle;
     font-weight: 400;
+}
+
+.footer-collumn ul li a:hover {
+    text-decoration: underline;
 }
