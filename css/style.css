@@ -194,6 +194,10 @@ header .half-container ul li:hover {
     border-bottom: 2px solid #000;
 }
 
+header .half-container ul li:hover a img{
+    border-bottom: 0;
+}
+
 header .half-container ul .start:hover {
     background-color: rgb(49, 138, 253);
     border-bottom: 0;
