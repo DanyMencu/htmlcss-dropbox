@@ -538,6 +538,7 @@ header .half-container ul .start:hover {
 
 .new-partner a:hover {
     background-color: rgba(255, 255, 255, 0.781);
+    border: 1px solid #000;
 }
 
 /* FAQS */
@@ -582,4 +583,36 @@ header .half-container ul .start:hover {
 
 .footer-collumn ul li a:hover {
     text-decoration: underline;
+}
+
+.answer-1 {
+    display: none;
+}
+
+.question-1:hover .answer-1 {
+    display: block;
+}
+
+.answer-2 {
+    display: none;
+}
+
+.question-2:hover .answer-2 {
+    display: block;
+}
+
+.answer-3 {
+    display: none;
+}
+
+.question-3:hover .answer-3 {
+    display: block;
+}
+
+.answer-4 {
+    display: none;
+}
+
+.question-4:hover .answer-4 {
+    display: block;
 }
