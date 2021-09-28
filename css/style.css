@@ -593,12 +593,20 @@ header .half-container ul .start:hover {
     display: block;
 }
 
+.question-1:hover i {
+    transform: rotate(180deg)
+}
+
 .answer-2 {
     display: none;
 }
 
 .question-2:hover .answer-2 {
     display: block;
+}
+
+.question-2:hover i {
+    transform: rotate(180deg)
 }
 
 .answer-3 {
@@ -609,10 +617,18 @@ header .half-container ul .start:hover {
     display: block;
 }
 
+.question-3:hover i {
+    transform: rotate(180deg)
+}
+
 .answer-4 {
     display: none;
 }
 
 .question-4:hover .answer-4 {
     display: block;
+}
+
+.question-4:hover i {
+    transform: rotate(180deg)
 }
