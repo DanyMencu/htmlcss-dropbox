@@ -209,6 +209,78 @@ header .half-container ul .start:hover {
     border-bottom: 0;
 }
 
+/* DROPDOWN MENU */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.why-db {
+    left: 180px;
+}
+
+.function-db {
+    left: 330px;
+}
+
+.price-db {
+    left: 465px;
+}
+
+.support-db {
+    right: 445px;
+}
+
+.contact-db {
+    right: 266px;
+}
+
+.sing-in-db {
+    right: 95px;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.drop-why:hover .why-db {
+    display: block;
+}
+
+.drop-function:hover .function-db {
+    display: block;
+}
+
+.drop-price:hover .price-db {
+    display: block;
+}
+
+.drop-support:hover .support-db {
+    display: block;
+}
+
+
+.drop-contact:hover .contact-db {
+    display: block;
+}
+
+.drop-sing-in:hover .sing-in-db {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(49, 138, 253);
+}
+
 /* HERO */
 
 .hero {
@@ -570,7 +642,10 @@ header .half-container ul .start:hover {
     font-size: 38px;
 }
 
-.answer-1 {
+.answer-1,
+.answer-2,
+.answer-3,
+.answer-4 {
     display: none;
 }
 
@@ -582,10 +657,6 @@ header .half-container ul .start:hover {
     transform: rotate(180deg)
 }
 
-.answer-2 {
-    display: none;
-}
-
 .question-2:hover .answer-2 {
     display: block;
 }
@@ -594,20 +665,12 @@ header .half-container ul .start:hover {
     transform: rotate(180deg)
 }
 
-.answer-3 {
-    display: none;
-}
-
 .question-3:hover .answer-3 {
     display: block;
 }
 
 .question-3:hover i {
     transform: rotate(180deg)
-}
-
-.answer-4 {
-    display: none;
 }
 
 .question-4:hover .answer-4 {
