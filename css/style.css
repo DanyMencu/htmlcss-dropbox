@@ -277,6 +277,25 @@ header .half-container ul .start:hover {
 /* MAIN */
 
 /* SUB SECTION */
+
+.sub-header input {
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #0061ff;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+  position: relative;
+  top: 4px;
+}
+
+.sub-header input:checked {
+    border: 5px solid #0061ff;
+}
+
 .sub-header h2 {
     font-size: 45px;
     font-weight: 800;
